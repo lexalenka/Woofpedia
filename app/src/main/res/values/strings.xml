@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Woofpedia</string>
+    <string-array name="titles">
+        <item>Affenpinscher</item>
+        <item>Austrailian_Shepherd</item>
+        <item>Beagle</item>
+        <item>Shiba_Inu</item>
+    </string-array>
+    <string-array name="info">
+        <item>The Affenpinscher, also known as the Monkey Terrier, is a terrier-like toy breed of dog.</item>
+        <item>The Australian Shepherd, often known simply as the "Aussie", is a medium-sized breed of dog that was, despite its name, developed on ranches in the Western United States, during the 19th century.</item>
+        <item>The Beagle is a breed of small-sized hound, similar in appearance to the much larger foxhound. The Beagle is a scent hound, developed primarily for hunting hare.</item>
+        <item>The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.</item>
+    </string-array>
+</resources>
