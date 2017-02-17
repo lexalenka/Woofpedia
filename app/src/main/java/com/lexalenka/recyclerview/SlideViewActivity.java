@@ -78,14 +78,13 @@ public class SlideViewActivity extends AppCompatActivity implements View.OnClick
 
                 switch (v.getId()) {
                     case R.id.favoriteButton:
-                        //Toast.makeText(this, "Add to favourite", Toast.LENGTH_SHORT).show();
-                        SharedPreferences favorites = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
-                        SharedPreferences.Editor editor = favorites.edit();
-                        editor.putString("favorite",dogList.get(position).getName());
-                        editor.commit();
+                        FavoriteUtility.addFavoriteItem(this,dogList.get(position).getName());
+                        String[] favorites = FavoriteUtility.getFavoriteList(this);
 
-                        Toast.makeText(this, favorites.getString("favorite",""), Toast.LENGTH_LONG).show();
+                        for (String member : favorites){
+                            Log.i("Member name: ", member);
+                        }
 
 
 

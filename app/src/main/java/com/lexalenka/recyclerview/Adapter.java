@@ -101,6 +101,8 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
             switch (menuItem.getItemId()) {
                 case R.id.action_add_favourite:
                     Toast.makeText(mContext, "Add to favourite", Toast.LENGTH_SHORT).show();
+                   // FavoriteUtility.addFavoriteItem(this,dogList.get(pos).getName());
+
                     return true;
                 case R.id.action_more_info:
                     Intent slideStart = new Intent(mContext, SlideViewActivity.class);
